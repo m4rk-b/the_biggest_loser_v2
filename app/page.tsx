@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import trophy from '../public/trophy.svg';
-import userimage from '../public/user.jpg';
-import chevronup from '../public/chevron-up.svg';
-import chevrondown from '../public/chevron-down.svg';
+import trophy from '../public/images/trophy.svg';
+import userimage from '../public/images/user.jpg';
+import chevronup from '../public/images/chevron-up.svg';
+import chevrondown from '../public/images/chevron-down.svg';
 
 interface User {
     id: number;

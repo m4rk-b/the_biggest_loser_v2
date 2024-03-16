@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../public/css/globals.css";
 
 export const metadata = {
   title: 'The Biggest Loser',
