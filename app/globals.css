@@ -13,8 +13,12 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   padding: 1rem;
+  background-color: #31363F;
+}
+
+h1 {
+  color: #ffffff;
 }
 
 .leaderboard-container {
@@ -25,7 +29,7 @@ body {
 }
 
 .leaderboard-header {
-    background-color: #AAD7D9;
+    background-color: #496989;
     padding: 1rem;
     margin: auto;
     width: 35%;
