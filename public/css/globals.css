@@ -12,6 +12,14 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .size-m {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .size-m {width: 35%;}
+}
+
 body {
   padding: 1rem;
   background-color: #31363F;
@@ -25,14 +33,14 @@ h1 {
     background-color: #E5E1DA;
     padding: 1rem;
     margin: auto;
-    width: 35%;
+    /* width: 35%; */
 }
 
 .leaderboard-header {
     background-color: #496989;
     padding: 1rem;
     margin: auto;
-    width: 35%;
+    /* width: 35%; */
 }
 
 .user-container {

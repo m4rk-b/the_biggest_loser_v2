@@ -71,10 +71,10 @@ const UserPage = async () => {
 
     return (
         <div>
-            <div className="leaderboard-header">
+            <div className="leaderboard-header size-m">
                 <strong><h1>The Biggest Loser Leaderboard</h1></strong>
             </div>
-            <div className="leaderboard-container">
+            <div className="leaderboard-container size-m">
             {users.map(user => 
                 <div className="user-container rounded-md drop-shadow-sm" key={user.id}>
                     <div className="avatar user-img">
