@@ -16,7 +16,11 @@
   .size-m {width: 100%;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .size-m {width: 65%;}
+}
+
+@media only screen and (min-width: 1366px) {
   .size-m {width: 35%;}
 }
 
@@ -33,14 +37,12 @@ h1 {
     background-color: #E5E1DA;
     padding: 1rem;
     margin: auto;
-    /* width: 35%; */
 }
 
 .leaderboard-header {
     background-color: #496989;
     padding: 1rem;
     margin: auto;
-    /* width: 35%; */
 }
 
 .user-container {
