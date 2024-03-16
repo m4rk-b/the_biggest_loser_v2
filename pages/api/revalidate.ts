@@ -1,4 +1,4 @@
-//https://<your-site.com>/api/revalidate?secret=<token>
+//https://the-biggest-loser-v2.onrender.com/api/revalidate?path=/&secret=6d395f067909a0a063a407ce22d9d477
 //Dev http://localhost:3000/api/revalidate?path=/&secret=6d395f067909a0a063a407ce22d9d477
 
 import { NextApiRequest, NextApiResponse } from "next";
