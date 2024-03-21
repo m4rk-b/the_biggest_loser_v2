@@ -30,13 +30,13 @@ const WeightIndicator = (weight: Weight) => {
     if(weight.weight_info > 0) {
         return(
             <div className="chevron">
-                <Image src={chevronup} alt="" />
+                <Image src={chevrondown} alt="" />
             </div>
         );
     } else {
         return(
             <div className="chevron">
-                <Image src={chevrondown} alt="" />
+                <Image src={chevronup} alt="" />
             </div>
         );
     }
