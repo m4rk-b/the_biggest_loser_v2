@@ -66,7 +66,7 @@ const WeightInfo = (weight: Weight) => {
 }
 
 const UserPage = async () => {
-    const res = await fetch('https://the-biggest-loser.onrender.com/');
+    const res = await fetch('https://the-biggest-loser.onrender.com/tbl/api/');
     const users: User[] = await res.json();
 
     return (
